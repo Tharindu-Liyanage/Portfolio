@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  width:100%;
+  min-width:1000px;
+  height:auto;
+    font-family: 'Kulim Park', sans-serif;
+    
+    
+}
+
+.home-color{
+    color: #FFFFFF;
+   
+}
+
+.home-img{
+    position:fixed;
+    width:280px;
+    position: relative;
+    left: 0px;       
+}
+
+.left-col{
+    padding-left:280px;
+}
+
+#for-hi{
+    padding-left:180px;
+    font-size:4.13em;
+}
+
+#home-bg{
+    background-image: url('./img/bg.jpg');
+}
+
+.home-text{
+    font-size:4.13em;
+}
+
+.home-pad{
+  padding-top:80px;
+}
+
+.cir{
+    position: relative;
+    height: 320px;
+    width: 320px;
+    background-color: #C9E9F0;
+    border-radius: 50%;
+    left:100px;
+    /*display: inline-block;*/
+  }
+
+  .nav-color{
+    background-color: transparent;
+  }
+
+  .nav-pad{
+    padding-left:100px;
+    font-size:1.7em;
+    padding-top:30px;
+
+  }
+
+  .center{
+    text-align:center;
+    font-size:3.5em;
+   padding-top:20px;
+   padding-left:300px;
+  }
+
+  .nav-last{
+    text-align:right;
+    font-size:1.7em;
+    padding-top:30px;
+    padding-left:460px;
+  }
+
+.nav-button{
+  padding-left:200px;
+  padding-top:70px;
+}
+
+.nav-button button {
+    background-color: #C9E9F0;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 31px;
+    height: 130px;
+    width: 130px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+
+  .nav-button button:active {
+    background-color: #C9E9F0;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  
+  .nav-button button:not(:first-child) {
+    margin-top: 10px;
+  }
+  .round-6 {
+    border-radius: 70%;
+  }
+
+  .nav-butto-arrow{
+    color:#637D7A;
+    
+  }
+
+
+  .net-button{
+    padding-left:200px;
+    padding-top:70px;
+  }
+  
+  .net-button button {
+      background-color: transparent;
+      color: transparent;
+      border: transparent;
+      padding: 5px;
+      font-size: 31px;
+      height: 150px;
+      width: 150px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+  
+    .net-button button:active {
+      background-color: transparent;
+      transform: translateY(2px);
+    }
+    
+    .net-button button:not(:first-child) {
+      margin-top: 10px;
+    }
+    .net-size {
+      border-radius: 70%;
+    }
+
+    .net-img{
+      width:500px;
+      position: relative;
+      top: 10px; 
+    }
+
+    .net-button{
+      padding-left:200px;
+      padding-top:70px;
+    }
+    
+    .net-button button {
+        background-color: transparent;
+        color: transparent;
+        border: transparent;
+        padding: 5px;
+        font-size: 31px;
+        height: 150px;
+        width: 150px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+    
+      .net-button button:active {
+        background-color: transparent;
+        transform: translateY(2px);
+      }
+      
+      .net-button button:not(:first-child) {
+        margin-top: 10px;
+      }
+      .net-size {
+        border-radius: 70%;
+      }
+
+    .net-align{
+      right:40px;
+    }
+
+
+/* net last */
+
+
+    .net-img-last{
+      width:200%;
+      
+    }
+    
+    .net-button-last-posi{
+      position: relative;
+      top: 5px;
+      padding-left: 300px;
+      
+    }
+    
+    .net-button-last button {
+        background-color: transparent;
+        color: transparent;
+        border: transparent;
+       /* padding: 5px; */
+        font-size: 31px;
+        width: 85px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+    
+      .net-button-last button:active {
+        background-color: transparent;
+        transform: translateY(2px);
+      }
+      
+      .net-button-last button:not(:first-child) {
+        margin-top: 10px;
+      }
+
+
+    
+
+
+
+
+    .port-title{
+      font-family: 'Elsie', cursive;
+      text-align:center;
+      font-size:4.13em;
+      padding-top:3%;
+    }
+
+   .port-text-size{
+    font-size:5.80em;
+    padding-left: 20%;
+    padding-top:20%;
+
+   }
+
+   .port-vhr1{
+    border-left: 5px solid #C9E9F0;
+    height: 500px;
+    z-index: 2;
+    position: relative;
+    left: 35%;
+    top: 150%;
+   }
+
+   .port-vhr2{
+    border-left: 5px solid #C9E9F0;
+    height: 500px;
+    z-index: 2;
+    position: relative;
+    left:5%;
+    top: 150%;
+   }
+
+   .port-hr{
+    border-width: 1px solid #C9E9F0;
+    width: 150px;
+    position: relative;
+    left: 69%;
+    bottom:4%;
+   }
+
+   #port-text-box1{
+    border-radius: 25px;
+    background:#C9E9F0;
+    padding: 20px; 
+    width: 600px;
+    height: 400px;  
+    position: relative;
+    right: 41%;
+    top:40px;
+  }
+
+  #port-text-box2{
+    border-radius: 25px;
+    background:#C9E9F0;
+    padding: 20px; 
+    width: 830px;
+    height: 400px;  
+    position: relative;
+    right:85%;
+    top:40px;
+  }
+
+  .port-text-font{
+    font-family: 'Mandali', sans-serif;
+
+  }
+
+  #port-ame-hr{
+    width: 300px;
+    position: relative;
+    left: 1%;
+    bottom:13%;
+    z-index:5;
+  }
+
+  #port-edu-vhr1{
+    border-left: 2px solid #005260;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    right:120%;
+    top:12%;
+   }
+
+   #port-edu-vhr2{
+    border-left: 2px solid #005260;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+    right:120%;
+    top:35%;
+   }
+
+   #port-edu-align{
+    position: relative;
+    right:30%;
+    top:35%;
+   }
+
+
+   .cont-title{
+    text-align:center;
+    font-size:4.13em;
+    padding-top:3%;
+  }
+
+
+   .cont-sub-title1{
+    font-size:3.00em;
+    padding-left: 20%;
+    padding-top:1%;
+    text-align:center;
+
+   }
+
+   .cont-sub-title2{
+    font-size:3.00em;
+    
+    padding-top:20%;
+    text-align:center;
+
+   }
+
+   .cont-sub1-hr{
+    border-width: 1px solid #C9E9F0;
+    width: 70px;
+    position: relative;
+    left: 62%;
+    bottom:30px;
+   }
+
+   .cont-sub2-hr{
+    border-width: 1px solid #C9E9F0;
+    width: 90px;
+    position: relative;
+    left: 60%;
+    bottom:3%;
+   }
+
+   .cont-text-box1{
+    border-radius: 25px;
+    background:#C9E9F0;
+    padding: 20px; 
+    width: 500px;
+    height: 300px;  
+    position: relative;
+    left:20px;
+    top:10px;
+  }
+
+  .input-contact {
+    border: 1px solid #C9E9F0;
+  /*  border-color:#C9E9F0; */
+	font-size: 13px;
+   	width:250px;
+    height:45px;
+    background-color:#C9E9F0;
+    border-radius: 25px;
+    font-size:1.5em;
+    padding-left:2%;
+    position: relative; right:5%;
+  }
+
+  .text-contact-q {
+    border: 1px solid #C9E9F0;
+	  font-size: 13px;
+   	width:600px;
+    height:300px;
+    background-color:#C9E9F0;
+    border-radius: 25px;
+    font-size:2em;
+    padding-left:5%;
+    padding-top: 5%;
+  }
+
+  .text-contact-q-posi{
+    position: relative;
+    top:60px;
+    right:50px;
+    font-family: 'Kulim Park', sans-serif;
+    
+    
+  }
+/*
+  ::placeholder {
+    
+    padding-left:5%;
+  }
+
+  textarea::placeholder {
+    padding-left:5%;
+    padding-top: 5%;
+    
+  } */
+
+  .input-position{
+    position:relative;
+    top:5%;
+    left:16%;
+  }
+
+  .cont-vhr{
+    border-left: 5px solid #C9E9F0;
+    height: 85%;
+    z-index: 2;
+    position: relative;
+    left: 80%;
+    top: 13%;
+   }
+
+   .foot-part{
+    background-color: #004F5C;
+    height: 106px;
+   }
+
+
+
+
+
+/* submit button */
+.button-27 {
+  appearance: none;
+  border: 2px solid #1A1A1A;
+  border-radius: 27px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 20px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
